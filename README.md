@@ -1,6 +1,6 @@
-# Upwork-Clone
+# Fix It Now
 
-![Build Status](https://github.com/AhmedMohamedAbdelaty/Upwork/actions/workflows/gradle.yml/badge.svg)
+![Build Status](https://github.com/AhmedMohamedAbdelaty/upwork/actions/workflows/gradle.yml/badge.svg)
 
 A platform connecting freelancers and clients for job postings, proposals, and real-time chat.
 
@@ -31,7 +31,7 @@ A platform connecting freelancers and clients for job postings, proposals, and r
 Make sure to replace `<container-name>`, `<password>`, `<database-name>`, and `<username>` with your desired values.
 - For testing purposes, you can use this command:
   ```bash
-  docker run --name Upwork -p 5432:5432 -e POSTGRES_PASSWORD=root -e POSTGRES_DB=upwork -e POSTGRES_USER=postgres -d postgres
+  docker run --name fixitnow -p 5432:5432 -e POSTGRES_PASSWORD=root -e POSTGRES_DB=fixitnow -e POSTGRES_USER=postgres -d postgres
   ```
 </details>
 
